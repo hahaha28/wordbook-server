@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<title>添加单词</title>
+</head>
+<body>
+	<form action="http://127.0.0.1:8080/add_word_temp" method="post">
+		<div>
+			单词：<input type="text" name="word">
+		</div>
+		<br>
+		<div>
+			音标：<input type="text" name="sound_mark">
+		</div>
+		<br>
+		<div>
+			中文：<textarea name="mean"></textarea>	
+		</div>
+		<br>
+		<div>
+			句子：<textarea name="sentence"></textarea>
+		<div>
+			<br>
+		<div>
+			<input type="submit" name="submit"><br>
+		</div>
+	</form>
+</body>
+</html>

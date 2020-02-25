@@ -12,6 +12,10 @@
 
     post
 
+* **URL**
+
+    /add_words
+
 * **表单**
 
     user = "用户名"
@@ -64,7 +68,7 @@
 
 * **URL**
 
-    ?user=用户名
+    /get_update?user=用户名
 
 * **返回**
 

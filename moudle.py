@@ -11,7 +11,7 @@ return 返回给客户端的json数据，代表是否有错误信息
 def add_words(user,words_json):
 	error_list = []
 	word_list = json.loads(words_json)
-	print(type(word_list))
+	print(f'word_list:{word_list}')
 	for word in word_list:
 		print(word['word'])
 		result = word_table.find_one({'word':word['word']})
